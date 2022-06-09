@@ -7,7 +7,7 @@ Then, execute ./copy.sh
 
 It will copy over in the folder "datasheets" all the folders beside strSheets, so that we can have a global base to use for all DCs.
 
-call unpack like so: ./unpack.sh
-call pack like so: 
-./pack.sh -a
+call unpack like so: ./unpack.sh<br><br>
+call pack like this: 
+./pack.sh -a<br>
 ./pack.sh EUR|GER|RUS|FRA
