@@ -1,0 +1,181 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "novadrop-dc/0.1.103-dev": {
+        "dependencies": {
+          "Microsoft.SourceLink.GitHub": "1.1.1",
+          "Microsoft.VisualStudio.Threading.Analyzers": "17.1.46",
+          "Nerdbank.GitVersioning": "3.5.86-alpha",
+          "StyleCop.Analyzers": "1.2.0-beta.406",
+          "Vezel.Novadrop.Cli": "1.0.0",
+          "Vezel.Novadrop.Formats": "1.0.0"
+        },
+        "runtime": {
+          "novadrop-dc.dll": {}
+        }
+      },
+      "Microsoft.Build.Tasks.Git/1.1.1": {},
+      "Microsoft.Experimental.Collections/1.0.6-e190117-3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Experimental.Collections.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Microsoft.SourceLink.Common/1.1.1": {},
+      "Microsoft.SourceLink.GitHub/1.1.1": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.1.1",
+          "Microsoft.SourceLink.Common": "1.1.1"
+        }
+      },
+      "Microsoft.VisualStudio.Threading.Analyzers/17.1.46": {},
+      "Nerdbank.GitVersioning/3.5.86-alpha": {},
+      "Spectre.Console/0.44.1-preview.0.17": {
+        "runtime": {
+          "lib/net6.0/Spectre.Console.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.44.1.0"
+          }
+        }
+      },
+      "Spectre.Console.Cli/0.44.1-preview.0.17": {
+        "dependencies": {
+          "Spectre.Console": "0.44.1-preview.0.17"
+        },
+        "runtime": {
+          "lib/net6.0/Spectre.Console.Cli.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.44.1.0"
+          }
+        }
+      },
+      "StyleCop.Analyzers/1.2.0-beta.406": {
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.406"
+        }
+      },
+      "StyleCop.Analyzers.Unstable/1.2.0.406": {},
+      "Vezel.Novadrop.Cli/1.0.0": {
+        "dependencies": {
+          "Spectre.Console.Cli": "0.44.1-preview.0.17"
+        },
+        "runtime": {
+          "Vezel.Novadrop.Cli.dll": {}
+        }
+      },
+      "Vezel.Novadrop.Common/1.0.0": {
+        "runtime": {
+          "Vezel.Novadrop.Common.dll": {}
+        }
+      },
+      "Vezel.Novadrop.Formats/1.0.0": {
+        "dependencies": {
+          "Microsoft.Experimental.Collections": "1.0.6-e190117-3",
+          "Vezel.Novadrop.Common": "1.0.0"
+        },
+        "runtime": {
+          "Vezel.Novadrop.Formats.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "novadrop-dc/0.1.103-dev": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Build.Tasks.Git/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AT3HlgTjsqHnWpBHSNeR0KxbLZD7bztlZVj7I8vgeYG9SYqbeFGh0TM/KVtC6fg53nrWHl3VfZFvb5BiQFcY6Q==",
+      "path": "microsoft.build.tasks.git/1.1.1",
+      "hashPath": "microsoft.build.tasks.git.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Experimental.Collections/1.0.6-e190117-3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S2IfWAo5bnXSgpr8o0LR3aMqo7QD83VQUPbgta6aOYIBq8M85Hpk8hVUco22GFhSRuf4ZhP8jUs2wPlO0Dbdow==",
+      "path": "microsoft.experimental.collections/1.0.6-e190117-3",
+      "hashPath": "microsoft.experimental.collections.1.0.6-e190117-3.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WMcGpWKrmJmzrNeuaEb23bEMnbtR/vLmvZtkAP5qWu7vQsY59GqfRJd65sFpBszbd2k/bQ8cs8eWawQKAabkVg==",
+      "path": "microsoft.sourcelink.common/1.1.1",
+      "hashPath": "microsoft.sourcelink.common.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IaJGnOv/M7UQjRJks7B6p7pbPnOwisYGOIzqCz5ilGFTApZ3ktOR+6zJ12ZRPInulBmdAf1SrGdDG2MU8g6XTw==",
+      "path": "microsoft.sourcelink.github/1.1.1",
+      "hashPath": "microsoft.sourcelink.github.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Threading.Analyzers/17.1.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7pImoMcQaWZYAwu1aDBB8yBkvgad13yjrRHQ65pwHMX757vZ49OrNaEuRSLDu2PjZGonsTkQAJK8JK4W/wW4bw==",
+      "path": "microsoft.visualstudio.threading.analyzers/17.1.46",
+      "hashPath": "microsoft.visualstudio.threading.analyzers.17.1.46.nupkg.sha512"
+    },
+    "Nerdbank.GitVersioning/3.5.86-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lHLCb61qDTuj/KjsSWaCRiuRtZXtkIj3NEkAjlftluqPox/rwggLkw+cFa5Bdb0+evgApfFaBf7s8kNbZYX04w==",
+      "path": "nerdbank.gitversioning/3.5.86-alpha",
+      "hashPath": "nerdbank.gitversioning.3.5.86-alpha.nupkg.sha512"
+    },
+    "Spectre.Console/0.44.1-preview.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VZseg2MepxXzCj7A0btKkn/YKWJDecJ/c6D61pJ9Q1ejzQVtfmxt9JAesIoP0WY8NjanmiDxucHj5YawYq1sdw==",
+      "path": "spectre.console/0.44.1-preview.0.17",
+      "hashPath": "spectre.console.0.44.1-preview.0.17.nupkg.sha512"
+    },
+    "Spectre.Console.Cli/0.44.1-preview.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BbqaB+a+Wcde+dBelL/6Jv8mGk2lDqTcihO+sqvzZEl7dVOmrcE76+toGhZ2Gej/yPvULGwEWbQlZyoYXdx6CA==",
+      "path": "spectre.console.cli/0.44.1-preview.0.17",
+      "hashPath": "spectre.console.cli.0.44.1-preview.0.17.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.2.0-beta.406": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YbsYoczQPZyz+4nmQ7bBiU9uQkk7Q2KUizQWEv01S4/ImCdJFiHvJfm8HAINNS0cvSLOA7xM9Y+KWQ2FOYjgkA==",
+      "path": "stylecop.analyzers/1.2.0-beta.406",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.406.nupkg.sha512"
+    },
+    "StyleCop.Analyzers.Unstable/1.2.0.406": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FclNdBR81ynIo9l1QNlo+l0I/PaFIYaPQPlMram8XVIMh6G6G43KTa1aCxfwTj13uKlAJS/LhLy6KjOPOeAU4w==",
+      "path": "stylecop.analyzers.unstable/1.2.0.406",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.406.nupkg.sha512"
+    },
+    "Vezel.Novadrop.Cli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vezel.Novadrop.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vezel.Novadrop.Formats/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
