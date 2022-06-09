@@ -1,3 +1,5 @@
+(Works with Ubuntu WSL2, dunno about rest)
+
 Using rsync to avoid copying over unmodified files after the very first pack.sh command.
 
 For unpack to work, drop the DataCenter files in this root folder.
