@@ -30,7 +30,7 @@ if [ "$1" == '-a' ]; then
         if [ -f "RUS/unpack/DataCenter.xsd" ]; then
                 rsync -rtv datasheets/* RUS/unpack/
                 echo "\nCopying system sheets to RUS done\n"
-		./novadrop-dc.exe pack GER/unpack/ saved-GER.dat
+		./novadrop-dc.exe pack RUS/unpack/ saved-RUS.dat
         else
                 echo "RUS/unpack/DataCenter.xsd doesn't exist, assuming no DC unpacked for it"
         fi
