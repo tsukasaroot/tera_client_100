@@ -1,1 +1,0 @@
-Extract EUR DC here.
