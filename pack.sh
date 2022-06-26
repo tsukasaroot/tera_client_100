@@ -40,5 +40,5 @@ if [ "$1" == '-a' ]; then
   fi
 else
   rsync -rtv datasheets/* "$1"/unpack/
-  ./novadrop-dc.exe pack "$1"/unpack/ saved-"$1".dat
+  ./novadrop-dc.exe pack "$1"/unpack/ release/DataCenter_Final_"$1".dat
 fi
